@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.tsx"],"names":["NativeModules","RNNIntercom"],"mappings":"AAAA,SAASA,aAAT,QAA8B,cAA9B;AAGA,MAAM;AAAEC,EAAAA;AAAF,IAAkBD,aAAxB;AACA,eAAeC,WAAf","sourcesContent":["import { NativeModules } from 'react-native';\nimport type { Intercom } from './types/Intercom';\n\nconst { RNNIntercom } = NativeModules;\nexport default RNNIntercom as Intercom;\n"]}
